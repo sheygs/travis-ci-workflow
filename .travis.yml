@@ -15,7 +15,7 @@ before_script:
 
 script:
         - docker --version # print the version for logging
-        - docker build -t minimal-node .
+        - docker build -t minimal-node --build-arg CONTAINER_NAME=${CONTAINER_NAME} .
         - docker tag minimal-node sheygs/minimal-node:latest
 
 after_success:

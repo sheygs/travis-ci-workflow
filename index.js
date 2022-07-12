@@ -1,13 +1,14 @@
 require('dotenv').config();
 const { log } = console;
 
+const containerName = process.env.CONTAINER_NAME;
+
 function sleep(ms) {
         return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
 async function main() {
-        const favoriteFood = process.env.FAVORITE_FOOD;
-        log(`My favorite food is ${favoriteFood}`);
+        log(`Container ${containerName} running...`);
 
         while (true) {
                 console.log('Containers rule!');
