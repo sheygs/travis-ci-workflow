@@ -1,0 +1,24 @@
+{
+  "name": "travis-ci-workflow",
+  "version": "1.0.0",
+  "description": "Automating development workflow using travis-ci",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sheygs13/travis-ci-workflow.git"
+  },
+  "keywords": [
+    "automation",
+    "travis-ci",
+    "docker"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sheygs13/travis-ci-workflow/issues"
+  },
+  "homepage": "https://github.com/sheygs13/travis-ci-workflow#readme"
+}
